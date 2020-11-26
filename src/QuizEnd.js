@@ -1,3 +1,4 @@
+  
 import React, { Component } from 'react'
 
 class QuizEnd extends Component {
@@ -8,8 +9,8 @@ class QuizEnd extends Component {
     return (
       <div>
         <p>Thanks for playing!</p>
-        <a href='' onClick={this.handleResetClick.bind(this)}>Reset Quiz</a>
-      </div>      
+        <a onClick={this.handleResetClick.bind(this)} href=''>Reset Quiz</a>
+      </div>                
     )
   }
 }
